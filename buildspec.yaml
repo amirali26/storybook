@@ -11,4 +11,5 @@ phases:
       - echo Build started on `date`
   post_build:
     commands:
+      - npm version
       - npm publish
