@@ -5,15 +5,10 @@ phases:
       - aws --version
       - echo Installing source NPM dependencies...
       - npm install
+      - aws codeartifact login --tool npm --repository worldwideandweb-storybook --domain worldwideandweb --domain-owner 460234074473
   build:
     commands:
       - echo Build started on `date`
-      - npm run build
   post_build:
     commands:
-      # copy the contents of build to codeartifact
-      - aws codeartifact login --tool npm --repository worldwideandweb-storybook --domain worldwideandweb --domain-owner 460234074473
-artifacts:
-  files:
-    - 'components/*'
-  base-directory: src
+      - npm publish ./src/components/
