@@ -5,7 +5,7 @@ phases:
       - aws --version
       - echo Installing source NPM dependencies...
       - npm install
-      - aws codeartifact login --tool npm --repository worldwideandweb-storybook --domain worldwideandweb --domain-owner 460234074473
+      - aws codeartifact login --tool npm --repository worldwideandweb-dependancies --domain worldwideandweb --domain-owner 460234074473
   build:
     commands:
       - echo Build started on `date`
