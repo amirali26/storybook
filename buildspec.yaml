@@ -16,5 +16,6 @@ phases:
       - cp package.json src/components
   post_build:
     commands:
+      - cd src/components
       - npm version 0.1.${CODEBUILD_BUILD_NUMBER}
-      - npm publish src/components
+      - npm publish
