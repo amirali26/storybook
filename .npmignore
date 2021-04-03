@@ -1,4 +1,7 @@
 node_modules
+public
+src/App.tsx
+src/index.css
 src/stories
 src/App.css
 src/App.test.tsx

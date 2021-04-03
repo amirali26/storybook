@@ -4,12 +4,15 @@ phases:
     commands:
       - aws --version
       - echo Installing source NPM dependencies...
+      - npm install -g typescript
       - npm install
       - aws codeartifact login --tool npm --repository worldwideandweb-dependancies --domain worldwideandweb --domain-owner 460234074473
   build:
     commands:
       - echo Build started on `date`
+      - echo Running tsc command
+      - tsc  src/components
   post_build:
     commands:
       - npm version 0.1.${CODEBUILD_BUILD_NUMBER}
-      - npm publish
+      - npm publish src/components
