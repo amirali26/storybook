@@ -10,12 +10,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Running tsc command
-      - tsc
-      - echo Copy pacakage to components folder
-      - cp package.json src/components
+      - npm run build
   post_build:
     commands:
-      - cd src/components
       - npm version 0.1.${CODEBUILD_BUILD_NUMBER}
       - npm publish
