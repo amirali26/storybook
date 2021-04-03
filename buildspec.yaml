@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Running tsc command
-      - tsc  src/components
+      - tsc
       - echo Copy pacakage to components folder
       - cp package.json src/components
   post_build:
