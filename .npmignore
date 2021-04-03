@@ -10,6 +10,11 @@ src/logo.svg
 src/react-app-env.d.ts
 src/reportWebVitals.ts
 src/setupTests.ts
+dist/stories
+dist/setupTests.js
+dist/reportWebVitals.js
+dist/App.test.js
+dist/App.js
 .gitignore
 .npmignore
 README.md
