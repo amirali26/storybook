@@ -1,8 +1,0 @@
-node_modules
-public
-src/stories
-README.md
-buildspec.yaml
-.gitignore
-.npmignore
-.storybook
