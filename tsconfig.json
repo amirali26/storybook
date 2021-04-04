@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "dist",
     "target": "es5",
     "lib": [
       "dom",
@@ -19,13 +19,13 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "react-jsx"
   },
   "include": [
     "src/components"
   ],
   "exclude": [
-    "lib/**/*"
+    "dist/**/*",
   ]
 }
