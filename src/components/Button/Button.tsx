@@ -1,8 +1,9 @@
-import { Button } from '@material-ui/core';
+import { Button, ButtonProps } from '@material-ui/core';
 import React from 'react';
 
-const WWWButton = () => {
-  return <Button>hello world</Button>;
+interface IProps extends ButtonProps {};
+const WWWButton: React.FC<IProps> = (props: IProps) => {
+  return <Button {...props}>{props.children}</Button>;
 };
 
 export default WWWButton;
