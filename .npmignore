@@ -1,6 +1,16 @@
 node_modules
 public
-src
+src/stories
+src/App.css
+src/App.test.tsx
+src/App.tsx
+src/index.css
+src/index.ts
+src/index.tsx
+src/logo.svg
+src/react-app-env.d.ts
+src/reportWebVitals.ts
+src/setupTests.ts
 README.md
 buildspec.yaml
 .gitignore
