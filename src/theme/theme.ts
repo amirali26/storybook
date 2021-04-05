@@ -24,7 +24,10 @@ const theme = createMuiTheme({
     button: {
       color: '#ffffff',
       fontSize: '15px',
+      fontWeight: 500,
       fontFamily: '"Montserrat", Sans-serif',
+      textTransform: 'capitalize',
+      letterSpacing: '0.4px',
     },
   },
 });
