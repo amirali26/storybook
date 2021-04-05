@@ -23,7 +23,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src/components"
+    "src/components",
+    "src/icons",
   ],
   "exclude": [
     "dist/**/*",
