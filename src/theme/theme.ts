@@ -15,11 +15,25 @@ const theme = createMuiTheme({
       fontFamily: '"Montserrat", Sans-serif',
       color: '#3d4459',
     },
-    h2: {
+    h1: {
+      color: '#ffffff',
       fontSize: '45px',
     },
+    h2: {
+      fontSize: '45px',
+      color: '#4632da',
+      fontWeight: 300,
+
+    },
     h3: {
-      fontSize: '20px',
+      fontSize: '24px',
+      color: '#3d4459',
+    },
+    body1: {
+      color: '#3d4459',
+      fontSize: '16px',
+      fontFamily: '"Montserrat", Sans-serif',
+      fontWeight: 200,
     },
     button: {
       color: '#ffffff',

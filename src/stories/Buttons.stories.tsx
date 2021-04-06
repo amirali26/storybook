@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export default {
-    title: 'Components/Button',
+    title: 'Components/Button/Default',
     component: WWWButton,
 } as Meta;
 
