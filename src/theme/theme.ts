@@ -1,5 +1,16 @@
 import { createMuiTheme } from '@material-ui/core';
 
+export const flex = (
+  flexDirection: 'row' | 'column' = 'row',
+  justifyContent: string = 'space-between',
+  alignItems: string = 'center'
+) => ({
+  display: 'flex',
+  flexDirection,
+  justifyContent,
+  alignItems,
+});
+
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -23,7 +34,6 @@ const theme = createMuiTheme({
       fontSize: '45px',
       color: '#4632da',
       fontWeight: 300,
-
     },
     h3: {
       fontSize: '24px',
