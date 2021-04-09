@@ -7,8 +7,9 @@ const useStyles = makeStyles({
     position: 'relative',
     minWidth: '600px',
     boxShadow: '0px 0px 20px 0px rgb(0 0 0 / 29%)',
-    borderRadius: '15px 15px 15px 70px',
+    borderRadius: '30px',
     maxWidth: '800px',
+    backgroundColor: 'transparent',
   },
   left: {
     backgroundColor: theme.palette.primary.main,
@@ -16,6 +17,8 @@ const useStyles = makeStyles({
     padding: '32px',
     height: 'inherit',
     boxSizing: 'border-box',
+    borderTopLeftRadius: '30px',
+    borderBottomLeftRadius: '30px',
     ...flex('column', 'space-between', 'flex-start'),
   },
   right: {
@@ -24,6 +27,8 @@ const useStyles = makeStyles({
     padding: '32px',
     height: 'inherit',
     boxSizing: 'border-box',
+    borderTopRightRadius: '30px',
+    borderBottomRightRadius: '30px',
     ...flex('column', 'space-between', 'flex-start'),
   },
 });
