@@ -18,6 +18,7 @@ const useStyles = makeStyles({
     ...flex('row', 'space-between', 'flex-start'),
   },
   right: {
+    backgroundColor: 'white',
     width: '500px',
     padding: '16px',
     height: 'inherit',
