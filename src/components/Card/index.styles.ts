@@ -12,19 +12,19 @@ const useStyles = makeStyles({
   },
   left: {
     backgroundColor: theme.palette.primary.main,
-    width: '300px',
-    padding: '16px',
+    width: '350px',
+    padding: '32px',
     height: 'inherit',
     boxSizing: 'border-box',
-    ...flex('row', 'space-between', 'flex-start'),
+    ...flex('column', 'space-between', 'flex-start'),
   },
   right: {
     backgroundColor: 'white',
     width: '500px',
-    padding: '16px',
+    padding: '32px',
     height: 'inherit',
     boxSizing: 'border-box',
-    ...flex('row', 'space-between', 'flex-start'),
+    ...flex('column', 'space-between', 'flex-start'),
   },
 });
 
