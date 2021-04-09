@@ -10,4 +10,4 @@ export default {
     component: WWWButton,
 } as Meta;
 
-export const Primary: React.VFC<{}> = () => <WWWButton variant={'contained'} endIcon={<FontAwesomeIcon icon={faArrowRight} />}>Button</WWWButton>;
+export const Primary: React.VFC<{}> = () => <WWWButton variant={'contained'} color={'primary'} endIcon={<FontAwesomeIcon icon={faArrowRight} />}>Button</WWWButton>;
