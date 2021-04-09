@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     position: 'relative',
     minWidth: '600px',
     boxShadow: '0px 0px 20px 0px rgb(0 0 0 / 29%)',
+    borderRadius: '15px 15px 15px 70px',
     maxWidth: '800px',
   },
   left: {
