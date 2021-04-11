@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   left: {
     backgroundColor: theme.palette.primary.main,
     width: '350px',
-    padding: '32px',
+    padding: '40px',
     height: '100%',
     boxSizing: 'border-box',
     borderTopLeftRadius: '30px',
@@ -24,7 +24,7 @@ const useStyles = makeStyles({
   right: {
     backgroundColor: 'white',
     width: '500px',
-    padding: '32px',
+    padding: '40px',
     height: '100%',
     boxSizing: 'border-box',
     borderTopRightRadius: '30px',

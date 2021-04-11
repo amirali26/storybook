@@ -19,14 +19,14 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
+    "noEmit": true,
     "jsx": "react-jsx"
   },
   "include": [
     "src/components",
-    "src/icons",
+    "src/icons"
   ],
   "exclude": [
-    "dist/**/*",
+    "dist/**/*"
   ]
 }
