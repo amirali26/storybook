@@ -14,42 +14,44 @@ export const flex = (
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#4632da',
+      main: '#ed6336',
     },
+    
     secondary: {
-      main: '#00dafc',
+      main: '#1F2839',
     },
+    
   },
   typography: {
-    fontFamily: '"Varela Round", Sans-serif',
+    fontFamily: '"Lato", Sans-serif',
     caption: {
-      fontFamily: '"Montserrat", Sans-serif',
-      color: '#3d4459',
+      fontFamily: '"Lato", Sans-serif',
+      color: '#222222',
     },
     h1: {
-      color: '#ffffff',
+      color: '#222222',
       fontSize: '45px',
     },
     h2: {
       fontSize: '45px',
-      color: '#4632da',
+      color: '#222222',
       fontWeight: 300,
     },
     h3: {
       fontSize: '24px',
-      color: '#3d4459',
+      color: '#2',
     },
     body1: {
-      color: '#3d4459',
+      color: '#222222',
       fontSize: '16px',
-      fontFamily: '"Montserrat", Sans-serif',
+      fontFamily: '"Lato", Sans-serif',
       fontWeight: 200,
     },
     button: {
-      color: '#ffffff',
+      color: 'white',
       fontSize: '15px',
       fontWeight: 500,
-      fontFamily: '"Montserrat", Sans-serif',
+      fontFamily: '"Lato", Sans-serif',
       textTransform: 'capitalize',
       letterSpacing: '0.4px',
     },
