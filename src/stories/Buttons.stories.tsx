@@ -10,4 +10,4 @@ export default {
     component: Button,
 } as Meta;
 
-export const Primary: React.VFC<{}> = () => <Button variant={'contained'} color={'primary'} endIcon={<FontAwesomeIcon icon={faArrowRight} />}>Button</Button>;
+export const Primary: React.VFC<{}> = () => <Button variant={'text'} color={'primary'} endIcon={<FontAwesomeIcon icon={faArrowRight} />}>Button</Button>;

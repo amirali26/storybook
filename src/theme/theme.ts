@@ -48,7 +48,6 @@ const theme = createMuiTheme({
       fontWeight: 200,
     },
     button: {
-      color: 'white',
       fontSize: '15px',
       fontWeight: 500,
       fontFamily: '"Lato", Sans-serif',
