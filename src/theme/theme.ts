@@ -14,27 +14,28 @@ export const flex = (
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#ed6336',
+      main: '#981e25',
     },
-    
     secondary: {
-      main: '#1F2839',
+      main: '#121212',
     },
-    
+    error: {
+      main: '#981E25',
+    }
   },
   typography: {
     fontFamily: '"Lato", Sans-serif',
     caption: {
       fontFamily: '"Lato", Sans-serif',
-      color: '#222222',
+      color: '#121212',
     },
     h1: {
-      color: '#222222',
+      color: '#121212',
       fontSize: '45px',
     },
     h2: {
       fontSize: '45px',
-      color: '#222222',
+      color: '#121212',
       fontWeight: 300,
     },
     h3: {
@@ -42,7 +43,7 @@ const theme = createMuiTheme({
       color: '#2',
     },
     body1: {
-      color: '#222222',
+      color: '#121212',
       fontSize: '16px',
       fontFamily: '"Lato", Sans-serif',
       fontWeight: 200,
