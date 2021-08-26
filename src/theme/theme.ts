@@ -25,6 +25,10 @@ const theme = createMuiTheme({
   },
   typography: {
     fontFamily: '"Lato", Sans-serif',
+    fontWeightRegular: 400,
+    fontWeightBold: 600,
+    fontWeightLight: 200,
+    fontWeightMedium: 400,
     caption: {
       fontFamily: '"Lato", Sans-serif',
       color: '#121212',
