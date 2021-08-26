@@ -36,13 +36,15 @@ const theme = createMuiTheme({
     h1: {
       color: '#121212',
       fontSize: '45px',
+      fontWeight: 600,
     },
     h2: {
       fontSize: '45px',
       color: '#121212',
-      fontWeight: 300,
+      fontWeight: 400,
     },
     h3: {
+      fontWeight: 400,
       fontSize: '24px',
       color: '#2',
     },
@@ -50,7 +52,7 @@ const theme = createMuiTheme({
       color: '#121212',
       fontSize: '16px',
       fontFamily: '"Lato", Sans-serif',
-      fontWeight: 200,
+      fontWeight: 400,
     },
     button: {
       fontSize: '15px',
