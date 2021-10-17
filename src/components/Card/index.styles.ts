@@ -1,4 +1,4 @@
-import { makeStyles } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import theme, { flex } from '../../theme/theme';
 
 const useStyles = makeStyles({
