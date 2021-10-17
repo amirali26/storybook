@@ -1,4 +1,4 @@
-import { Typography as MuiTypography, TypographyProps } from '@material-ui/core';
+import { Typography as MuiTypography, TypographyProps } from '@mui/material';
 import clsx from 'clsx';
 import React from 'react';
 
