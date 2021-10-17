@@ -1,4 +1,4 @@
-import { MuiThemeProvider } from "@material-ui/core"
+import { ThemeProvider } from "@mui/material"
 import { addDecorator } from "@storybook/react"
 import theme from "../src/theme/theme"
 
@@ -7,7 +7,7 @@ export const parameters = {
 }
 
 addDecorator(story => (
-  <MuiThemeProvider theme={theme}>
+  <ThemeProvider theme={theme}>
     {story()}
-  </MuiThemeProvider>
+  </ThemeProvider>
 ))

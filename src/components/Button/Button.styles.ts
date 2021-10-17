@@ -1,6 +1,6 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles((theme) => {
+const useStyles = makeStyles((theme: any) => {
   return {
     root: {
       boxShadow: '0px 0px 30px 0px rgb(0 0 0 / 10%)',
