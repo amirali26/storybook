@@ -1,1 +1,2 @@
-export * from 'material-ui-chip-input';
+import ChipInput from "material-ui-chip-input";
+export default ChipInput;
