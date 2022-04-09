@@ -6,7 +6,7 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install -g typescript
       - npm install
-      - aws codeartifact login --tool npm --repository helpmycase --domain helpmycase --domain-owner 460234074473
+      - aws codeartifact login --tool npm --repository helpmycase --domain helpmycase --domain-owner 619680812856
   build:
     commands:
       - echo Build started on `date`
